@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "kroste.ls25",
+      "displayName": "Landwirtschafts-Simulator 25 Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Verwaltung für FS25: Installiert-Tab (Enable/Disable/Uninstall/lokale ZIP), Katalog-Anbindung (ModHub/Hof Hirschfeld/modhoster ab v0.2) und KI-Zusammenfassungen (ab v0.5).",
+      "steamAppIds": [2300320],
+      "updateSource": {
+        "kind": "github",
+        "repo": "Kroste/ModManager.Plugins.LS25"
+      },
+      "iconUrl": null
+    },
+    {
+      "id": "kroste.dummy",
+      "displayName": "Dummy Plugin (Demo)",
+      "author": "Kroste",
+      "description": "Minimales Beispiel-Plugin — zeigt Kontext-Info + drei Test-Aktionen (Log, Notification, HTTP-Probe). Für Kette-Diagnose gedacht.",
+      "steamAppIds": [730, 440, 1493710],
+      "updateSource": {
+        "kind": "github",
+        "repo": "Kroste/ModManager.Plugins.Dummy"
+      },
+      "iconUrl": null
+    }
+  ]
+}
