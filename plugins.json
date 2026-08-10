@@ -5,11 +5,35 @@
       "id": "kroste.ls25",
       "displayName": "Landwirtschafts-Simulator 25 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für FS25: Installiert-Tab (Enable/Disable/Uninstall/lokale ZIP), Katalog-Anbindung (ModHub/Hof Hirschfeld/modhoster ab v0.2) und KI-Zusammenfassungen (ab v0.5).",
+      "description": "Mod-Verwaltung für FS25: Installiert-Tab mit Enable/Disable/Uninstall + Detail-Dialog aus dem Installed-Tab, ModHub-Katalog (GIANTS + Hof Hirschfeld + modhoster), KI-Zusammenfassungen via Host-KI-Provider, Backup/Restore. Metadata-Cache für schnellen Startup (v1.8.2).",
       "steamAppIds": [2300320],
       "updateSource": {
         "kind": "github",
-        "repo": "Kroste/ModManager.Plugins.LS25"
+        "repo": "KroModIx/KroModIx.Plugin.LS25"
+      },
+      "iconUrl": null
+    },
+    {
+      "id": "kroste.icarus",
+      "displayName": "Icarus Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Manager für Icarus (RocketWerkz). Manuelle PAK-Mods im Content/Paks/mods/-Ordner + Steam-Workshop-Abos gemeinsam gelistet (Workshop read-only). Nexus-Mods-Katalog mit persönlichem API-Key, Direct-Download für Premium-User, Detail-Dialog mit KI-Zusammenfassung. Auto-Refresh, Cover-Enrichment (v1.10.0).",
+      "steamAppIds": [1149460],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.Icarus"
+      },
+      "iconUrl": null
+    },
+    {
+      "id": "kroste.satisfactory",
+      "displayName": "Satisfactory Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Manager für Satisfactory (Coffee Stain). ficsit.app-Katalog via GraphQL, Detail-Dialog mit Beschreibung + KI-Zusammenfassung, .smod-Direct-Download (kein OAuth nötig), Install in FactoryGame/Mods/. Kroste-Card-Look, IUpdateNotifier für neue Katalog-Einträge (v0.1.0).",
+      "steamAppIds": [526870],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.Satisfactory"
       },
       "iconUrl": null
     },
@@ -17,11 +41,11 @@
       "id": "kroste.dummy",
       "displayName": "Dummy Plugin (Demo)",
       "author": "Kroste",
-      "description": "Minimales Beispiel-Plugin — zeigt Kontext-Info + drei Test-Aktionen (Log, Notification, HTTP-Probe). Für Kette-Diagnose gedacht.",
+      "description": "Minimales Beispiel-Plugin — zeigt Kontext-Info + Test-Aktionen (Log, Notification, HTTP-Probe). Für Kette-Diagnose gedacht.",
       "steamAppIds": [730, 440, 1493710],
       "updateSource": {
         "kind": "github",
-        "repo": "Kroste/ModManager.Plugins.Dummy"
+        "repo": "KroModIx/KroModIx.Plugin.Dummy"
       },
       "iconUrl": null
     }
