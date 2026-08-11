@@ -41,8 +41,8 @@
       "id": "kroste.renpyassist",
       "displayName": "Ren'Py Assist",
       "author": "Kroste",
-      "description": "Ordner-basierter Update-Manager für Ren'Py-Spiele mit f95zone.to-Anbindung (CSRF-Login, Session-Cookies verschlüsselt via Host-Secrets). Sub-Path-Rotation: Update-ZIPs entpacken in neuen Sub-Ordner, Save-Games werden aus dem alten mit-kopiert, alter bleibt liegen (Safety-Net). IUpdateNotifier zeigt Summe HasUpdate als Sidebar-Badge. Ab v0.2.0: Setup via Host-Wizard „🎮 Ordner mit Spielen scannen\" (Host v1.8.0+) — User wählt Root, Host scannt nach game/-Marker, Sammel-Kachel entsteht automatisch.",
-      "steamAppIds": [9000001],
+      "description": "Ren'Py-Spiele als eigenständige Sidebar-Kacheln (v0.3+ Multi-Tile). Setup via Host-Wizard „🎮 Ordner mit Spielen scannen\" (Host v1.9.0+) — User wählt Root, Host scannt nach game/-Marker, pro Ren'Py-Spiel entsteht eine eigene Kachel mit engine=renpy. Plugin bindet über GameTarget.Engine=renpy. Sub-Path-Rotation für Updates (game/saves/ bleibt erhalten), f95zone-Thread-Watch mit CSRF-Login + verschlüsselten Session-Cookies.",
+      "steamAppIds": [],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.RenPyAssist"
