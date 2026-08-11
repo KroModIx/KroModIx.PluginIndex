@@ -38,6 +38,18 @@
       "iconUrl": null
     },
     {
+      "id": "kroste.renpyassist",
+      "displayName": "Ren'Py Assist",
+      "author": "Kroste",
+      "description": "Ordner-basierter Update-Manager für Ren'Py-Spiele mit f95zone.to-Anbindung (CSRF-Login, Session-Cookies verschlüsselt via Host-Secrets). Sub-Path-Rotation: Update-ZIPs entpacken in neuen Sub-Ordner, Save-Games werden aus dem alten mit-kopiert, alter bleibt liegen (Safety-Net). IUpdateNotifier zeigt Summe HasUpdate als Sidebar-Badge (v0.1.0, Anchor = Proton Experimental bis ordnerbasierter Discovery-Contract in v0.2).",
+      "steamAppIds": [1493710],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.RenPyAssist"
+      },
+      "iconUrl": null
+    },
+    {
       "id": "kroste.dummy",
       "displayName": "Dummy Plugin (Demo)",
       "author": "Kroste",
