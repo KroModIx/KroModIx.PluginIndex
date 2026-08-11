@@ -41,7 +41,7 @@
       "id": "kroste.renpyassist",
       "displayName": "Ren'Py Assist",
       "author": "Kroste",
-      "description": "Ordner-basierter Update-Manager für Ren'Py-Spiele mit f95zone.to-Anbindung (CSRF-Login, Session-Cookies verschlüsselt via Host-Secrets). Sub-Path-Rotation: Update-ZIPs entpacken in neuen Sub-Ordner, Save-Games werden aus dem alten mit-kopiert, alter bleibt liegen (Safety-Net). IUpdateNotifier zeigt Summe HasUpdate als Sidebar-Badge. Ab v0.1.1: virtualGame legt beim Discovery automatisch die Sidebar-Kachel „Ren'Py Games\" an (Contracts 1.7.5+, Host 1.7.5+).",
+      "description": "Ordner-basierter Update-Manager für Ren'Py-Spiele mit f95zone.to-Anbindung (CSRF-Login, Session-Cookies verschlüsselt via Host-Secrets). Sub-Path-Rotation: Update-ZIPs entpacken in neuen Sub-Ordner, Save-Games werden aus dem alten mit-kopiert, alter bleibt liegen (Safety-Net). IUpdateNotifier zeigt Summe HasUpdate als Sidebar-Badge. Ab v0.2.0: Setup via Host-Wizard „🎮 Ordner mit Spielen scannen\" (Host v1.8.0+) — User wählt Root, Host scannt nach game/-Marker, Sammel-Kachel entsteht automatisch.",
       "steamAppIds": [9000001],
       "updateSource": {
         "kind": "github",
