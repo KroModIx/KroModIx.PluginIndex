@@ -11,7 +11,8 @@
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.LS25"
       },
-      "iconUrl": null
+      "iconUrl": null,
+      "categories": ["simulation", "farming"]
     },
     {
       "id": "kroste.icarus",
@@ -23,7 +24,8 @@
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Icarus"
       },
-      "iconUrl": null
+      "iconUrl": null,
+      "categories": ["survival", "unreal-engine"]
     },
     {
       "id": "kroste.satisfactory",
@@ -35,7 +37,8 @@
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Satisfactory"
       },
-      "iconUrl": null
+      "iconUrl": null,
+      "categories": ["factory", "unreal-engine"]
     },
     {
       "id": "kroste.renpyassist",
@@ -47,7 +50,8 @@
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.RenPyAssist"
       },
-      "iconUrl": null
+      "iconUrl": null,
+      "categories": ["visual-novel", "renpy", "adult"]
     },
     {
       "id": "kroste.dummy",
@@ -59,7 +63,8 @@
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Dummy"
       },
-      "iconUrl": null
+      "iconUrl": null,
+      "categories": ["dev", "demo"]
     }
   ]
 }
