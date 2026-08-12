@@ -44,7 +44,7 @@
       "id": "kroste.cyberpunk2077",
       "displayName": "Cyberpunk 2077 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Installiert-Tab mit Discovery aller fünf gängigen Mod-Typen: .archive-Assets (archive/pc/mod/), REDmods (offiziell CDPR, mods/<name>/info.json wird geparst), Cyber Engine Tweaks (Lua-Mods), RED4ext-Plugins (.dll), redscript (.reds). Enable/Disable via .disabled-Suffix, Bulk-Aktionen mit Progress-Scope, Filter nach Name/Typ (v0.1.0).",
+      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript), Enable/Disable via .disabled-Suffix. (2) Nexus-Katalog mit Cover-Enrichment + Kategorien-Filter. (3) Downloads mit ZIP-Auto-Layout-Detection. (4) Update-Discovery für REDmods (info.json-Version vs Nexus latest) mit grünem ↑-Sidebar-Badge (v0.4.0). Nutzt zentralen Host-Nexus-Baukasten, MinHostVersion 1.14.0.",
       "steamAppIds": [1091500],
       "updateSource": {
         "kind": "github",
