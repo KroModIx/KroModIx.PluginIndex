@@ -44,7 +44,7 @@
       "id": "kroste.cyberpunk2077",
       "displayName": "Cyberpunk 2077 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript), Enable/Disable via .disabled-Suffix. (2) Nexus-Katalog mit Cover-Enrichment, Kategorien-Filter, Detail-Dialog (Beschreibung + KI-Zusammenfassung + Adult-Warning), Premium-Direct-Download aus Katalog & Detail (v0.5.0). (3) Downloads mit ZIP-Auto-Layout-Detection und Auto-Refresh nach Direct-Download. (4) Update-Discovery für REDmods (info.json-Version vs Nexus latest) mit grünem ↑-Sidebar-Badge. Nutzt zentralen Host-Nexus-Baukasten, MinHostVersion 1.14.0.",
+      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL (~23000 Mods, Pagination + Server-Search + Sortier-Dropdown, v0.7). (3) Detail-Dialog mit Beschreibung, KI-Zusammenfassung, Screenshot-Galerie + Fullscreen-Viewer (v0.6), Premium-Direct-Download, Adult-Warning. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. DE+EN-Übersetzung (v0.8). Nutzt zentralen Host-Nexus-Baukasten, MinHostVersion 1.15.1.",
       "steamAppIds": [1091500],
       "updateSource": {
         "kind": "github",
