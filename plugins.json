@@ -41,6 +41,19 @@
       "categories": ["factory", "unreal-engine"]
     },
     {
+      "id": "kroste.cyberpunk2077",
+      "displayName": "Cyberpunk 2077 Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Installiert-Tab mit Discovery aller fünf gängigen Mod-Typen: .archive-Assets (archive/pc/mod/), REDmods (offiziell CDPR, mods/<name>/info.json wird geparst), Cyber Engine Tweaks (Lua-Mods), RED4ext-Plugins (.dll), redscript (.reds). Enable/Disable via .disabled-Suffix, Bulk-Aktionen mit Progress-Scope, Filter nach Name/Typ (v0.1.0).",
+      "steamAppIds": [1091500],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.Cyberpunk2077"
+      },
+      "iconUrl": null,
+      "categories": ["rpg", "cyberpunk", "action"]
+    },
+    {
       "id": "kroste.renpyassist",
       "displayName": "Ren'Py Assist",
       "author": "Kroste",
