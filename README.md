@@ -16,6 +16,8 @@ verfügbar ist. Klick → Install-Karte im Content-Bereich → 1-Klick-Install
 | `kroste.ls25` | Landwirtschafts-Simulator 25 | 2300320 | [KroModIx.Plugin.LS25](https://github.com/KroModIx/KroModIx.Plugin.LS25) |
 | `kroste.icarus` | Icarus | 1149460 | [KroModIx.Plugin.Icarus](https://github.com/KroModIx/KroModIx.Plugin.Icarus) |
 | `kroste.satisfactory` | Satisfactory | 526870 | [KroModIx.Plugin.Satisfactory](https://github.com/KroModIx/KroModIx.Plugin.Satisfactory) |
+| `kroste.cyberpunk2077` | Cyberpunk 2077 | 1091500 | [KroModIx.Plugin.Cyberpunk2077](https://github.com/KroModIx/KroModIx.Plugin.Cyberpunk2077) |
+| `kroste.renpyassist` | Ren'Py-Spiele (engine-basiert, ohne SteamAppId) | — | [KroModIx.Plugin.RenPyAssist](https://github.com/KroModIx/KroModIx.Plugin.RenPyAssist) |
 | `kroste.dummy` | Demo (CS2, TF2, Proton) | 730, 440, 1493710 | [KroModIx.Plugin.Dummy](https://github.com/KroModIx/KroModIx.Plugin.Dummy) |
 
 ## Ein Plugin registrieren
@@ -28,12 +30,13 @@ Pull-Request mit einem zusätzlichen Eintrag in `plugins.json`:
   "displayName": "Menschenlesbarer Name",
   "author": "Kroste",
   "description": "Ein bis zwei Sätze zum Plugin.",
-  "steamAppIds": [1234567],           // Steam-AppIds die das Plugin bedient
+  "steamAppIds": [1234567],           // Steam-AppIds die das Plugin bedient (leer bei engine-basierten Plugins wie RenPyAssist)
   "updateSource": {
     "kind": "github",
     "repo": "KroModIx/KroModIx.Plugin.<Name>"
   },
-  "iconUrl": null                     // optional; PNG-URL für das Plugin-Logo
+  "iconUrl": null,                    // optional; PNG-URL für das Plugin-Logo
+  "categories": ["rpg", "action"]     // optional; PluginIndex-Kategorien werden als Chips im InstallCard gezeigt (v1.11.0+)
 }
 ```
 
