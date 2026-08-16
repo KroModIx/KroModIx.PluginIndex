@@ -67,6 +67,19 @@
       "categories": ["visual-novel", "renpy", "adult"]
     },
     {
+      "id": "kroste.dysonsphereprogram",
+      "displayName": "Dyson Sphere Program Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). v0.1: Installiert-Tab mit BepInEx-Discovery (flat DLLs unter BepInEx/plugins/ oder Ordner-Layout), Enable/Disable via .disabled-Suffix, Uninstall + Bulk-Aktionen. Voraussetzung: User installiert BepInEx Pack for DSP von Nexus (~15 MB) — Plugin greift dann automatisch. DE+EN. Nexus-Katalog + Downloads in v0.2+.",
+      "steamAppIds": [1366540],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.DysonSphereProgram"
+      },
+      "iconUrl": null,
+      "categories": ["factory", "space", "bepinex"]
+    },
+    {
       "id": "kroste.dummy",
       "displayName": "Dummy Plugin (Demo)",
       "author": "Kroste",
