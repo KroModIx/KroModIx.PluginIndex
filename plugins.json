@@ -59,7 +59,7 @@
       "id": "kroste.cyberpunk2077",
       "displayName": "Cyberpunk 2077 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL (~23000 Mods, Pagination + Server-Search + Sortier-Dropdown). (3) Detail-Dialog mit Beschreibung, KI-Zusammenfassung, Screenshot-Galerie + Fullscreen-Viewer, Premium-Direct-Download, Adult-Warning. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. v0.12.2: UpdateChecker filtert verwaiste Install-Manifests (Mod manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.12.1: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. v0.12.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). DE+EN. MinHostVersion 1.21.0.",
+      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL. (3) Detail-Dialog mit Rich-HTML + KI-Zusammenfassung + Screenshot-Galerie + Premium-Direct-Download. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. v0.13.0: implementiert IConflictSource (Contracts v1.24) — die Konflikt-UI im Host zeigt jetzt reale Cyberpunk-File-Overlaps (Archive-XL-Sidecars mit-berueckseichtigt, alle 5 Mod-Typen enumeriert, .disabled-Mods zeigt Kollisionen vor Re-Enable). v0.12.2: UpdateChecker filtert verwaiste Install-Manifests. v0.12.1: Rich-HTML-Detail via _host.Descriptions. DE+EN. MinHostVersion 1.24.0.",
       "steamAppIds": [
         1091500
       ],
@@ -95,7 +95,7 @@
       "id": "kroste.dysonsphereprogram",
       "displayName": "Dyson Sphere Program Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). v0.6.4: UpdateChecker filtert verwaiste Install-Manifests (Mod-DLL nicht mehr auf der Platte → Manifest wird geloescht statt als Phantom-Update-Kandidat weiter zu koennen). v0.6.3: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. Drei Tabs (Installiert / Nexus-Katalog / Downloads), BepInEx-Auto-Install-Assistent, Nexus-Voll-Katalog via GraphQL, KI-Zusammenfassung, IUpdateNotifier + InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). NexusFileNameParser matcht beide CDN-Formate (Dash + Space). DE+EN.",
+      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). v0.6.5: Snapshot des BepInEx/-Verzeichnisses via _host.Backup (Contracts v1.23) VOR jedem Install (Row + Bulk). Restore ueber Host-Backups-UI (Sidebar-Kontextmenue). keepLast=10 haelt die Historie klein. v0.6.4: UpdateChecker filtert verwaiste Install-Manifests. v0.6.3: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. Drei Tabs (Installiert / Nexus-Katalog / Downloads), BepInEx-Auto-Install-Assistent, Nexus-Voll-Katalog via GraphQL, KI-Zusammenfassung, IUpdateNotifier + InstallManifest, Row-Konsistenz in allen drei Tabs. DE+EN. MinHostVersion 1.23.0.",
       "steamAppIds": [
         1366540
       ],
