@@ -70,7 +70,7 @@
       "id": "kroste.dysonsphereprogram",
       "displayName": "Dyson Sphere Program Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). v0.1: Installiert-Tab mit BepInEx-Discovery (flat DLLs unter BepInEx/plugins/ oder Ordner-Layout), Enable/Disable via .disabled-Suffix, Uninstall + Bulk-Aktionen. Voraussetzung: User installiert BepInEx Pack for DSP von Nexus (~15 MB) — Plugin greift dann automatisch. DE+EN. Nexus-Katalog + Downloads in v0.2+.",
+      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). Drei Tabs (Installiert / Nexus-Katalog / Downloads), BepInEx-Auto-Install-Assistent, Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit KI-Zusammenfassung, IUpdateNotifier + InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). NexusFileNameParser matcht beide CDN-Formate (Dash + Space). DE+EN.",
       "steamAppIds": [1366540],
       "updateSource": {
         "kind": "github",
@@ -78,6 +78,19 @@
       },
       "iconUrl": null,
       "categories": ["factory", "space", "bepinex"]
+    },
+    {
+      "id": "kroste.scheduleone",
+      "displayName": "Schedule I Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install-Assistent (Direct-Download der MelonLoader.x64.zip vom LavaGang-GitHub-Release). Nexus-Voll-Katalog via GraphQL, Nexus-Detail-Dialog mit KI-Zusammenfassung, SharpCompress-Auto-Layout-Install, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). DE+EN.",
+      "steamAppIds": [3164500],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.ScheduleI"
+      },
+      "iconUrl": null,
+      "categories": ["simulation", "il2cpp", "melonloader"]
     },
     {
       "id": "kroste.dummy",
