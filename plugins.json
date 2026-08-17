@@ -95,7 +95,7 @@
       "id": "kroste.dysonsphereprogram",
       "displayName": "Dyson Sphere Program Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). v0.6.3: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView (Host v1.21 HtmlRenderer-Baukasten) — Bold/Italic/Farben/Bilder/Listen inline sichtbar statt Plain-Text-Wall. Plain-Text bleibt fuer KI-Prompts. Drei Tabs (Installiert / Nexus-Katalog / Downloads), BepInEx-Auto-Install-Assistent, Nexus-Voll-Katalog via GraphQL, KI-Zusammenfassung, IUpdateNotifier + InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). NexusFileNameParser matcht beide CDN-Formate (Dash + Space). DE+EN.",
+      "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). v0.6.4: UpdateChecker filtert verwaiste Install-Manifests (Mod-DLL nicht mehr auf der Platte → Manifest wird geloescht statt als Phantom-Update-Kandidat weiter zu koennen). v0.6.3: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. Drei Tabs (Installiert / Nexus-Katalog / Downloads), BepInEx-Auto-Install-Assistent, Nexus-Voll-Katalog via GraphQL, KI-Zusammenfassung, IUpdateNotifier + InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). NexusFileNameParser matcht beide CDN-Formate (Dash + Space). DE+EN.",
       "steamAppIds": [
         1366540
       ],
