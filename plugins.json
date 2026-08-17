@@ -6,104 +6,148 @@
       "displayName": "Landwirtschafts-Simulator 25 Mod-Manager",
       "author": "Kroste",
       "description": "Mod-Verwaltung für FS25: Installiert-Tab mit Enable/Disable/Uninstall + Detail-Dialog aus dem Installed-Tab, ModHub-Katalog (GIANTS + Hof Hirschfeld + modhoster), KI-Zusammenfassungen via Host-KI-Provider, Backup/Restore. Metadata-Cache für schnellen Startup (v1.8.2).",
-      "steamAppIds": [2300320],
+      "steamAppIds": [
+        2300320
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.LS25"
       },
       "iconUrl": null,
-      "categories": ["simulation", "farming"]
+      "categories": [
+        "simulation",
+        "farming"
+      ]
     },
     {
       "id": "kroste.icarus",
       "displayName": "Icarus Mod-Manager",
       "author": "Kroste",
       "description": "Mod-Manager für Icarus (RocketWerkz). Manuelle PAK-Mods im Content/Paks/mods/-Ordner + Steam-Workshop-Abos gemeinsam gelistet (Workshop read-only). Nexus-Mods-Katalog mit persönlichem API-Key, Direct-Download für Premium-User, Detail-Dialog mit KI-Zusammenfassung. Auto-Refresh, Cover-Enrichment. v1.19.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). v1.18.0: Cover-Decode ueber Host-IImageDecoder-Baukasten. MinHostVersion 1.20.0.",
-      "steamAppIds": [1149460],
+      "steamAppIds": [
+        1149460
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Icarus"
       },
       "iconUrl": null,
-      "categories": ["survival", "unreal-engine"]
+      "categories": [
+        "survival",
+        "unreal-engine"
+      ]
     },
     {
       "id": "kroste.satisfactory",
       "displayName": "Satisfactory Mod-Manager",
       "author": "Kroste",
       "description": "Mod-Manager für Satisfactory (Coffee Stain). ficsit.app-Katalog via GraphQL, Detail-Dialog mit Beschreibung + KI-Zusammenfassung, .smod-Direct-Download (kein OAuth nötig), Install in FactoryGame/Mods/. Kroste-Card-Look, IUpdateNotifier für neue Katalog-Einträge (v0.1.0).",
-      "steamAppIds": [526870],
+      "steamAppIds": [
+        526870
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Satisfactory"
       },
       "iconUrl": null,
-      "categories": ["factory", "unreal-engine"]
+      "categories": [
+        "factory",
+        "unreal-engine"
+      ]
     },
     {
       "id": "kroste.cyberpunk2077",
       "displayName": "Cyberpunk 2077 Mod-Manager",
       "author": "Kroste",
       "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL (~23000 Mods, Pagination + Server-Search + Sortier-Dropdown, v0.7). (3) Detail-Dialog mit Beschreibung, KI-Zusammenfassung, Screenshot-Galerie + Fullscreen-Viewer (v0.6), Premium-Direct-Download, Adult-Warning. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. DE+EN-Übersetzung (v0.8). v0.12.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). v0.11.0: Cover-Decode ueber Host-IImageDecoder-Baukasten. MinHostVersion 1.20.0.",
-      "steamAppIds": [1091500],
+      "steamAppIds": [
+        1091500
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Cyberpunk2077"
       },
       "iconUrl": null,
-      "categories": ["rpg", "cyberpunk", "action"]
+      "categories": [
+        "rpg",
+        "cyberpunk",
+        "action"
+      ]
     },
     {
       "id": "kroste.renpyassist",
       "displayName": "Ren'Py Assist",
       "author": "Kroste",
-      "description": "Ren'Py-Spiele als eigenständige Sidebar-Kacheln (v0.3+ Multi-Tile). Setup via Host-Wizard „🎮 Ordner mit Spielen scannen\" (Host v1.9.0+) — User wählt Root, Host scannt nach game/-Marker, pro Ren'Py-Spiel entsteht eine eigene Kachel mit engine=renpy. Plugin bindet über GameTarget.Engine=renpy. Sub-Path-Rotation für Updates (game/saves/ bleibt erhalten), f95zone-Thread-Watch mit CSRF-Login + verschlüsselten Session-Cookies.",
+      "description": "Verwaltet Ren'Py-Spiele als eigenständige Sidebar-Kacheln (Multi-Tile). v0.16.0: KrosteTranslationGenerator schreibt jetzt Language-Activator + Overlay-Button — fixt Games mit hartcodiertem Language-Menu (SteamCity & Co, die den tl/<lang>/-Ordner ohne UI-Aktivierung nicht anzeigen). v0.15.0: Bitmap-Decode via Host-Baukasten IHostServices.Images. KrosteMod-Pipeline (Walkthrough/Cheat/Rename/Translate), Übersichts-View, RPA-Archive-Browser, Save-Editor. Setup via Host-Wizard, F95zone-Login.",
       "steamAppIds": [],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.RenPyAssist"
       },
       "iconUrl": null,
-      "categories": ["visual-novel", "renpy", "adult"]
+      "categories": [
+        "visual-novel",
+        "renpy",
+        "adult"
+      ]
     },
     {
       "id": "kroste.dysonsphereprogram",
       "displayName": "Dyson Sphere Program Mod-Manager",
       "author": "Kroste",
       "description": "Mod-Verwaltung für Dyson Sphere Program (Youthcat Studio). Drei Tabs (Installiert / Nexus-Katalog / Downloads), BepInEx-Auto-Install-Assistent, Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit HTML+BBCode-Description via zentralem _host.Descriptions-Baukasten (Contracts v1.19+) und KI-Zusammenfassung, IUpdateNotifier + InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). NexusFileNameParser matcht beide CDN-Formate (Dash + Space). DE+EN.",
-      "steamAppIds": [1366540],
+      "steamAppIds": [
+        1366540
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.DysonSphereProgram"
       },
       "iconUrl": null,
-      "categories": ["factory", "space", "bepinex"]
+      "categories": [
+        "factory",
+        "space",
+        "bepinex"
+      ]
     },
     {
       "id": "kroste.scheduleone",
       "displayName": "Schedule I Mod-Manager",
       "author": "Kroste",
       "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install-Assistent (Direct-Download der MelonLoader.x64.zip vom LavaGang-GitHub-Release). Nexus-Voll-Katalog via GraphQL mit Auto-Load-All (alle Mods im Hintergrund laden, nicht nur 40), Nexus-Detail-Dialog mit HTML/BBCode-Rendering via zentralem _host.Descriptions-Baukasten (v0.3.0, Contracts v1.20) + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). DE+EN.",
-      "steamAppIds": [3164500],
+      "steamAppIds": [
+        3164500
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.ScheduleI"
       },
       "iconUrl": null,
-      "categories": ["simulation", "il2cpp", "melonloader"]
+      "categories": [
+        "simulation",
+        "il2cpp",
+        "melonloader"
+      ]
     },
     {
       "id": "kroste.dummy",
       "displayName": "Dummy Plugin (Demo)",
       "author": "Kroste",
       "description": "Minimales Beispiel-Plugin — zeigt Kontext-Info + Test-Aktionen (Log, Notification, HTTP-Probe). Für Kette-Diagnose gedacht.",
-      "steamAppIds": [730, 440, 1493710],
+      "steamAppIds": [
+        730,
+        440,
+        1493710
+      ],
       "updateSource": {
         "kind": "github",
         "repo": "KroModIx/KroModIx.Plugin.Dummy"
       },
       "iconUrl": null,
-      "categories": ["dev", "demo"]
+      "categories": [
+        "dev",
+        "demo"
+      ]
     }
   ]
 }
