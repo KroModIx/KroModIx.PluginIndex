@@ -152,7 +152,7 @@
       "id": "kroste.captainofindustry",
       "displayName": "Captain of Industry Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Captain of Industry (MaFi Games). Drei Tabs: Workshop (Steam-Workshop-Consumer via _host.Workshop mit Empty-State + kuratierter GitHub-Sources-Liste aus dem Meta-Repo KroModIx/KroModIx.CoiModIndex), Installiert (mod.json-Discovery unter Docs/Captain of Industry/Mods/), Downloads (Local .zip-Import mit Auto-Layout-Detection). v0.3.0: kuratierte GitHub-Sources-Liste via HTTP-Fetch (6h-Cache) — PR-basierte Community-Pflege. v0.2.0: Installiert + Downloads dazu. v0.1.0: Workshop-only. DE+EN. MinHostVersion 1.18.0.",
+      "description": "Mod-Verwaltung für Captain of Industry (MaFi Games). Drei Tabs: Workshop (Empty-State mit kuratierter GitHub-Sources-Liste aus KroModIx/KroModIx.CoiModIndex, Cards mit optionalem ⚠-Warning-Chip), Installiert (mod.json-Discovery unter Docs/Captain of Industry/Mods/), Downloads (Local .zip-Import). v0.3.1: gelber ⚠-Warning-Chip in Sources-Cards (Legal/Kompat/Adult). v0.3.0: kuratierte GitHub-Sources-Liste (6h-Cache) via Meta-Repo. v0.2.0: Installiert + Downloads dazu. v0.1.0: Workshop-only. DE+EN. MinHostVersion 1.18.0.",
       "steamAppIds": [
         1594320
       ],
