@@ -18,7 +18,7 @@
       "id": "kroste.icarus",
       "displayName": "Icarus Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Manager für Icarus (RocketWerkz). Manuelle PAK-Mods im Content/Paks/mods/-Ordner + Steam-Workshop-Abos gemeinsam gelistet (Workshop read-only). Nexus-Mods-Katalog mit persönlichem API-Key, Direct-Download für Premium-User, Detail-Dialog mit KI-Zusammenfassung. Auto-Refresh, Cover-Enrichment (v1.10.0).",
+      "description": "Mod-Manager für Icarus (RocketWerkz). Manuelle PAK-Mods im Content/Paks/mods/-Ordner + Steam-Workshop-Abos gemeinsam gelistet (Workshop read-only). Nexus-Mods-Katalog mit persönlichem API-Key, Direct-Download für Premium-User, Detail-Dialog mit KI-Zusammenfassung. Auto-Refresh, Cover-Enrichment. v1.19.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). v1.18.0: Cover-Decode ueber Host-IImageDecoder-Baukasten. MinHostVersion 1.20.0.",
       "steamAppIds": [1149460],
       "updateSource": {
         "kind": "github",
