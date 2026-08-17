@@ -130,6 +130,25 @@
       ]
     },
     {
+      "id": "kroste.sevendaystodie",
+      "displayName": "7 Days to Die Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Verwaltung für 7 Days to Die (The Fun Pimps). Vanilla-Loader (kein Bootstrap noetig), jeder Mod ein Ordner mit ModInfo.xml. Drei Tabs (Installiert / Nexus-Katalog / Downloads) mit Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit Rich-HTML + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install (Mods/-Root oder ModInfo.xml-Erkennung), IUpdateNotifier mit InstallManifest-Store, Row-Konsistenz in allen drei Tabs. ModInfo.xml-Parser toleriert A20+ Attribut-Form und Legacy Element-Form. DE+EN. MinHostVersion 1.21.0.",
+      "steamAppIds": [
+        251570
+      ],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.SevenDaysToDie"
+      },
+      "iconUrl": null,
+      "categories": [
+        "survival",
+        "sandbox",
+        "zombies"
+      ]
+    },
+    {
       "id": "kroste.dummy",
       "displayName": "Dummy Plugin (Demo)",
       "author": "Kroste",
