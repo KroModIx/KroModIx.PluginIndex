@@ -114,7 +114,7 @@
       "id": "kroste.scheduleone",
       "displayName": "Schedule I Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install-Assistent (Direct-Download der MelonLoader.x64.zip vom LavaGang-GitHub-Release). Nexus-Voll-Katalog via GraphQL mit Auto-Load-All (alle Mods im Hintergrund laden, nicht nur 40), Nexus-Detail-Dialog mit HTML/BBCode-Rendering via zentralem _host.Descriptions-Baukasten (v0.3.0, Contracts v1.20) + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs (Cover + Details + Doppelklick). DE+EN.",
+      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). v0.4.0: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView (Host v1.21 HtmlRenderer-Baukasten) — Bold/Italic/Farben/Bilder/Listen inline sichtbar statt Plain-Text-Wall. v0.3.0: BBCode-Parser wandert in Host-Baukasten _host.Descriptions. Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install, Nexus-Voll-Katalog via GraphQL, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs. DE+EN.",
       "steamAppIds": [
         3164500
       ],
