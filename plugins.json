@@ -149,6 +149,25 @@
       ]
     },
     {
+      "id": "kroste.captainofindustry",
+      "displayName": "Captain of Industry Mod-Manager",
+      "author": "Kroste",
+      "description": "Mod-Verwaltung für Captain of Industry (MaFi Games). Reiner Workshop-Consumer via _host.Workshop (Contracts v1.17): listet die vom User abonnierten Steam-Workshop-Items mit Cover, Titel, Autor, Subscriber-Count. Un/Subscribe bleibt beim Steam-Client — hier nur Discovery + Deep-Links (Steam-Client, Browser, Ordner). Kein Nexus, kein manueller Install, kein IUpdateNotifier (Steam handhabt Updates automatisch). DE+EN. MinHostVersion 1.18.0.",
+      "steamAppIds": [
+        1594320
+      ],
+      "updateSource": {
+        "kind": "github",
+        "repo": "KroModIx/KroModIx.Plugin.CaptainOfIndustry"
+      },
+      "iconUrl": null,
+      "categories": [
+        "factory",
+        "simulation",
+        "workshop"
+      ]
+    },
+    {
       "id": "kroste.dummy",
       "displayName": "Dummy Plugin (Demo)",
       "author": "Kroste",
