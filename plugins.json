@@ -59,7 +59,7 @@
       "id": "kroste.cyberpunk2077",
       "displayName": "Cyberpunk 2077 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL (~23000 Mods, Pagination + Server-Search + Sortier-Dropdown, v0.7). (3) Detail-Dialog mit Beschreibung, KI-Zusammenfassung, Screenshot-Galerie + Fullscreen-Viewer (v0.6), Premium-Direct-Download, Adult-Warning. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. DE+EN-Übersetzung (v0.8). v0.12.1: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView (Host v1.21 HtmlRenderer-Baukasten) — Bold/Italic/Farben/Bilder/Listen inline sichtbar. v0.12.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). v0.11.0: Cover-Decode ueber Host-IImageDecoder-Baukasten. MinHostVersion 1.21.0.",
+      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL (~23000 Mods, Pagination + Server-Search + Sortier-Dropdown). (3) Detail-Dialog mit Beschreibung, KI-Zusammenfassung, Screenshot-Galerie + Fullscreen-Viewer, Premium-Direct-Download, Adult-Warning. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. v0.12.2: UpdateChecker filtert verwaiste Install-Manifests (Mod manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.12.1: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. v0.12.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). DE+EN. MinHostVersion 1.21.0.",
       "steamAppIds": [
         1091500
       ],
@@ -114,7 +114,7 @@
       "id": "kroste.scheduleone",
       "displayName": "Schedule I Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). v0.4.0: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView (Host v1.21 HtmlRenderer-Baukasten) — Bold/Italic/Farben/Bilder/Listen inline sichtbar statt Plain-Text-Wall. v0.3.0: BBCode-Parser wandert in Host-Baukasten _host.Descriptions. Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install, Nexus-Voll-Katalog via GraphQL, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs. DE+EN.",
+      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). v0.4.1: UpdateChecker filtert verwaiste Install-Manifests (Mod-DLL manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.4.0: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. v0.3.0: BBCode-Parser wandert in Host-Baukasten _host.Descriptions. Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install, Nexus-Voll-Katalog via GraphQL, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs. DE+EN.",
       "steamAppIds": [
         3164500
       ],
@@ -133,7 +133,7 @@
       "id": "kroste.sevendaystodie",
       "displayName": "7 Days to Die Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für 7 Days to Die (The Fun Pimps). Vanilla-Loader (kein Bootstrap noetig), jeder Mod ein Ordner mit ModInfo.xml. Drei Tabs (Installiert / Nexus-Katalog / Downloads) mit Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit Rich-HTML + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install (Mods/-Root oder ModInfo.xml-Erkennung), IUpdateNotifier mit InstallManifest-Store, Row-Konsistenz in allen drei Tabs. ModInfo.xml-Parser toleriert A20+ Attribut-Form und Legacy Element-Form. DE+EN. MinHostVersion 1.21.0.",
+      "description": "Mod-Verwaltung für 7 Days to Die (The Fun Pimps). Vanilla-Loader (kein Bootstrap noetig), jeder Mod ein Ordner mit ModInfo.xml. v0.1.1: UpdateChecker filtert verwaiste Install-Manifests (Mod-Ordner manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.1.0: Drei Tabs (Installiert / Nexus-Katalog / Downloads) mit Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit Rich-HTML + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install (Mods/-Root oder ModInfo.xml-Erkennung), IUpdateNotifier mit InstallManifest-Store, Row-Konsistenz in allen drei Tabs. ModInfo.xml-Parser toleriert A20+ Attribut-Form und Legacy Element-Form. DE+EN. MinHostVersion 1.21.0.",
       "steamAppIds": [
         251570
       ],
