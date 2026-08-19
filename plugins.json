@@ -78,7 +78,7 @@
       "id": "kroste.renpyassist",
       "displayName": "Ren'Py Assist",
       "author": "Kroste",
-      "description": "Verwaltet Ren'Py-Spiele als eigenständige Sidebar-Kacheln (Multi-Tile). v0.16.1: Cover-Crop-Dialog goldener Rahmen wieder sichtbar (Race-Condition async Bitmap-Load ↔ Canvas-SizeChanged behoben). v0.16.0: KrosteTranslationGenerator schreibt Language-Activator + Overlay-Button. v0.15.0: Bitmap-Decode via Host-Baukasten IHostServices.Images. KrosteMod-Pipeline (Walkthrough/Cheat/Rename/Translate), Übersichts-View, RPA-Archive-Browser, Save-Editor. Setup via Host-Wizard, F95zone-Login.",
+      "description": "Verwaltet Ren'Py-Spiele als eigenständige Sidebar-Kacheln (Multi-Tile). v0.16.2: Auto-Chmod vor Launch — setzt +x auf .sh + lib/py*-linux-*/-Binaries (ZIP-von-Windows-Fall, spart manuellen chmod-Roundtrip). v0.16.1: Cover-Crop-Dialog goldener Rahmen wieder sichtbar. v0.16.0: KrosteTranslationGenerator schreibt Language-Activator + Overlay-Button. v0.15.0: Bitmap-Decode via Host-Baukasten IHostServices.Images. KrosteMod-Pipeline (Walkthrough/Cheat/Rename/Translate), Übersichts-View, RPA-Archive-Browser, Save-Editor. Setup via Host-Wizard, F95zone-Login.",
       "steamAppIds": [],
       "updateSource": {
         "kind": "github",
