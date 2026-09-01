@@ -5,7 +5,7 @@
       "id": "kroste.ls25",
       "displayName": "Landwirtschafts-Simulator 25 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für FS25: Installiert-Tab mit Enable/Disable/Uninstall + Detail-Dialog aus dem Installed-Tab, ModHub-Katalog (GIANTS + Hof Hirschfeld + modhoster), KI-Zusammenfassungen via Host-KI-Provider, Backup/Restore. v1.19.0: Review-Fixes — ViewModel-Leak, atomare Saves, geprüfte Restore-Dateinamen, zentraler Versions-Vergleich. Metadata-Cache für schnellen Startup (v1.8.2).",
+      "description": "Mod-Verwaltung für FS25: Installiert-Tab mit Enable/Disable/Uninstall + Detail-Dialog aus dem Installed-Tab, ModHub-Katalog (GIANTS + Hof Hirschfeld + modhoster), KI-Zusammenfassungen via Host-KI-Provider, Backup/Restore. v1.20.0: Backup-Snapshot vor jedem Install. v1.19.0: Review-Fixes — ViewModel-Leak, atomare Saves, geprüfte Restore-Dateinamen, zentraler Versions-Vergleich. Metadata-Cache für schnellen Startup (v1.8.2).",
       "steamAppIds": [
         2300320
       ],
@@ -23,7 +23,7 @@
       "id": "kroste.icarus",
       "displayName": "Icarus Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Manager für Icarus (RocketWerkz). v1.20.0: Review-Fixes — ViewModel-Leak, atomare Saves, zentraler Versions-Vergleich. Manuelle PAK-Mods im Content/Paks/mods/-Ordner + Steam-Workshop-Abos gemeinsam gelistet (Workshop read-only). Nexus-Mods-Katalog mit persönlichem API-Key, Direct-Download für Premium-User, Detail-Dialog mit KI-Zusammenfassung. Auto-Refresh, Cover-Enrichment. v1.19.1: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView (Host v1.21 HtmlRenderer-Baukasten) — Bold/Italic/Farben/Bilder/Listen inline sichtbar. v1.19.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). v1.18.0: Cover-Decode ueber Host-IImageDecoder-Baukasten. MinHostVersion 1.21.0.",
+      "description": "Mod-Manager für Icarus (RocketWerkz). v1.21.0: Backup-Snapshot vor jedem Install. v1.20.0: Review-Fixes — ViewModel-Leak, atomare Saves, zentraler Versions-Vergleich. Manuelle PAK-Mods im Content/Paks/mods/-Ordner + Steam-Workshop-Abos gemeinsam gelistet (Workshop read-only). Nexus-Mods-Katalog mit persönlichem API-Key, Direct-Download für Premium-User, Detail-Dialog mit KI-Zusammenfassung. Auto-Refresh, Cover-Enrichment. v1.19.1: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView (Host v1.21 HtmlRenderer-Baukasten) — Bold/Italic/Farben/Bilder/Listen inline sichtbar. v1.19.0: HTML/BBCode-Description-Parser aus _host.Descriptions (zentraler Baukasten Contracts v1.20). v1.18.0: Cover-Decode ueber Host-IImageDecoder-Baukasten. MinHostVersion 1.21.0.",
       "steamAppIds": [
         1149460
       ],
@@ -41,7 +41,7 @@
       "id": "kroste.satisfactory",
       "displayName": "Satisfactory Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Manager für Satisfactory (Coffee Stain). v0.10.0: Review-Fixes — ViewModel-Leak, atomarer Tracker-Save, zentraler Versions-Vergleich. ficsit.app-Katalog via GraphQL, Detail-Dialog mit Rich-HTML (Markdown → HTML via Markdig → Host-Baukasten), KI-Zusammenfassung, .smod-Direct-Download (kein OAuth nötig), Install in FactoryGame/Mods/. Kroste-Card-Look, IUpdateNotifier für installierte Mod-Updates. v0.9.1: Release-Workflow bundelt alle transitiven Runtime-DLLs (Markdig-Fix).",
+      "description": "Mod-Manager für Satisfactory (Coffee Stain). v0.11.0: Backup-Snapshot vor jedem Install. v0.10.0: Review-Fixes — ViewModel-Leak, atomarer Tracker-Save, zentraler Versions-Vergleich. ficsit.app-Katalog via GraphQL, Detail-Dialog mit Rich-HTML (Markdown → HTML via Markdig → Host-Baukasten), KI-Zusammenfassung, .smod-Direct-Download (kein OAuth nötig), Install in FactoryGame/Mods/. Kroste-Card-Look, IUpdateNotifier für installierte Mod-Updates. v0.9.1: Release-Workflow bundelt alle transitiven Runtime-DLLs (Markdig-Fix).",
       "steamAppIds": [
         526870
       ],
@@ -59,7 +59,7 @@
       "id": "kroste.cyberpunk2077",
       "displayName": "Cyberpunk 2077 Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). v0.13.1: Installiert-Scan off-UI-Thread (kein App-Freeze beim Tab-Bau mehr). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL. (3) Detail-Dialog mit Rich-HTML + KI-Zusammenfassung + Screenshot-Galerie + Premium-Direct-Download. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. v0.13.0: implementiert IConflictSource (Contracts v1.24) — die Konflikt-UI im Host zeigt jetzt reale Cyberpunk-File-Overlaps (Archive-XL-Sidecars mit-berueckseichtigt, alle 5 Mod-Typen enumeriert, .disabled-Mods zeigt Kollisionen vor Re-Enable). v0.12.2: UpdateChecker filtert verwaiste Install-Manifests. v0.12.1: Rich-HTML-Detail via _host.Descriptions. DE+EN. MinHostVersion 1.24.0.",
+      "description": "Mod-Verwaltung für Cyberpunk 2077 (CD Projekt Red). v0.14.0: Backup-Snapshot vor jedem Install, schnelleres Manifest-Enrichment. v0.13.1: Installiert-Scan off-UI-Thread (kein App-Freeze beim Tab-Bau mehr). Vier Tabs: (1) Installiert mit Discovery aller fünf gängigen Mod-Typen (Archive/REDmod/CET/RED4ext/redscript). (2) Nexus-Voll-Katalog via GraphQL. (3) Detail-Dialog mit Rich-HTML + KI-Zusammenfassung + Screenshot-Galerie + Premium-Direct-Download. (4) Downloads mit ZIP-Auto-Layout-Detection + Update-Discovery für REDmods. v0.13.0: implementiert IConflictSource (Contracts v1.24) — die Konflikt-UI im Host zeigt jetzt reale Cyberpunk-File-Overlaps (Archive-XL-Sidecars mit-berueckseichtigt, alle 5 Mod-Typen enumeriert, .disabled-Mods zeigt Kollisionen vor Re-Enable). v0.12.2: UpdateChecker filtert verwaiste Install-Manifests. v0.12.1: Rich-HTML-Detail via _host.Descriptions. DE+EN. MinHostVersion 1.24.0.",
       "steamAppIds": [
         1091500
       ],
@@ -78,7 +78,7 @@
       "id": "kroste.renpyassist",
       "displayName": "Ren'Py Assist",
       "author": "Kroste",
-      "description": "Verwaltet Ren'Py-Spiele als eigenständige Sidebar-Kacheln (Multi-Tile). v0.18.0: Review-Fixes — Cover-Cache, ViewModel-Leaks, atomarer Registry-Save, zentraler Versions-Vergleich, proxy-konfigurierter f95zone-Client. v0.17.1: Update-Badge nur noch bei echt neuerer Thread-Version (semantischer Versions-Vergleich statt String-Ungleichheit). v0.17.0: 🔗-Thread-Button — öffnet den verknüpften f95zone-Thread direkt aus der Übersicht und aus den Einstellungen. v0.16.2: Auto-Chmod vor Launch — setzt +x auf .sh + lib/py*-linux-*/-Binaries (ZIP-von-Windows-Fall, spart manuellen chmod-Roundtrip). v0.16.1: Cover-Crop-Dialog goldener Rahmen wieder sichtbar. v0.16.0: KrosteTranslationGenerator schreibt Language-Activator + Overlay-Button. v0.15.0: Bitmap-Decode via Host-Baukasten IHostServices.Images. KrosteMod-Pipeline (Walkthrough/Cheat/Rename/Translate), Übersichts-View, RPA-Archive-Browser, Save-Editor. Setup via Host-Wizard, F95zone-Login.",
+      "description": "Verwaltet Ren'Py-Spiele als eigenständige Sidebar-Kacheln (Multi-Tile). v0.19.0: Datenverlust-Fixes — Save-Copy-Schutz beim Update, .bak vor jedem Save-Edit. v0.18.0: Review-Fixes — Cover-Cache, ViewModel-Leaks, atomarer Registry-Save, zentraler Versions-Vergleich, proxy-konfigurierter f95zone-Client. v0.17.1: Update-Badge nur noch bei echt neuerer Thread-Version (semantischer Versions-Vergleich statt String-Ungleichheit). v0.17.0: 🔗-Thread-Button — öffnet den verknüpften f95zone-Thread direkt aus der Übersicht und aus den Einstellungen. v0.16.2: Auto-Chmod vor Launch — setzt +x auf .sh + lib/py*-linux-*/-Binaries (ZIP-von-Windows-Fall, spart manuellen chmod-Roundtrip). v0.16.1: Cover-Crop-Dialog goldener Rahmen wieder sichtbar. v0.16.0: KrosteTranslationGenerator schreibt Language-Activator + Overlay-Button. v0.15.0: Bitmap-Decode via Host-Baukasten IHostServices.Images. KrosteMod-Pipeline (Walkthrough/Cheat/Rename/Translate), Übersichts-View, RPA-Archive-Browser, Save-Editor. Setup via Host-Wizard, F95zone-Login.",
       "steamAppIds": [],
       "updateSource": {
         "kind": "github",
@@ -114,7 +114,7 @@
       "id": "kroste.scheduleone",
       "displayName": "Schedule I Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). v0.4.2: Badge-Refresh-Fehler werden geloggt. v0.4.1: UpdateChecker filtert verwaiste Install-Manifests (Mod-DLL manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.4.0: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. v0.3.0: BBCode-Parser wandert in Host-Baukasten _host.Descriptions. Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install, Nexus-Voll-Katalog via GraphQL, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs. DE+EN.",
+      "description": "Mod-Manager für Schedule I (TVGS, IL2CPP). v0.5.0: Backup-Snapshot vor jedem Install. v0.4.2: Badge-Refresh-Fehler werden geloggt. v0.4.1: UpdateChecker filtert verwaiste Install-Manifests (Mod-DLL manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.4.0: Detail-Dialog rendert Rich-HTML via _host.Descriptions.CreateRichView. v0.3.0: BBCode-Parser wandert in Host-Baukasten _host.Descriptions. Drei Tabs (Installiert / Nexus-Katalog / Downloads) + MelonLoader-Auto-Install, Nexus-Voll-Katalog via GraphQL, IUpdateNotifier mit InstallManifest, Row-Konsistenz in allen drei Tabs. DE+EN.",
       "steamAppIds": [
         3164500
       ],
@@ -133,7 +133,7 @@
       "id": "kroste.sevendaystodie",
       "displayName": "7 Days to Die Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für 7 Days to Die (The Fun Pimps). v0.1.2: Badge-Refresh-Fehler werden geloggt. Vanilla-Loader (kein Bootstrap noetig), jeder Mod ein Ordner mit ModInfo.xml. v0.1.1: UpdateChecker filtert verwaiste Install-Manifests (Mod-Ordner manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.1.0: Drei Tabs (Installiert / Nexus-Katalog / Downloads) mit Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit Rich-HTML + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install (Mods/-Root oder ModInfo.xml-Erkennung), IUpdateNotifier mit InstallManifest-Store, Row-Konsistenz in allen drei Tabs. ModInfo.xml-Parser toleriert A20+ Attribut-Form und Legacy Element-Form. DE+EN. MinHostVersion 1.21.0.",
+      "description": "Mod-Verwaltung für 7 Days to Die (The Fun Pimps). v0.2.0: Backup-Snapshot vor jedem Install. v0.1.2: Badge-Refresh-Fehler werden geloggt. Vanilla-Loader (kein Bootstrap noetig), jeder Mod ein Ordner mit ModInfo.xml. v0.1.1: UpdateChecker filtert verwaiste Install-Manifests (Mod-Ordner manuell geloescht → Manifest wird gepurged statt Phantom-Update-Badge). v0.1.0: Drei Tabs (Installiert / Nexus-Katalog / Downloads) mit Nexus-Voll-Katalog via GraphQL, Detail-Dialog mit Rich-HTML + KI-Zusammenfassung, SharpCompress-Auto-Layout-Install (Mods/-Root oder ModInfo.xml-Erkennung), IUpdateNotifier mit InstallManifest-Store, Row-Konsistenz in allen drei Tabs. ModInfo.xml-Parser toleriert A20+ Attribut-Form und Legacy Element-Form. DE+EN. MinHostVersion 1.21.0.",
       "steamAppIds": [
         251570
       ],
@@ -152,7 +152,7 @@
       "id": "kroste.captainofindustry",
       "displayName": "Captain of Industry Mod-Manager",
       "author": "Kroste",
-      "description": "Mod-Verwaltung für Captain of Industry (MaFi Games). v0.4.0: Update-Discovery im Installiert-Tab (GitHub-Releases über die kuratierte Sources-Liste, Badge + Release-Button, Sidebar-Badge). Drei Tabs: Workshop (Empty-State mit kuratierter GitHub-Sources-Liste aus KroModIx/KroModIx.CoiModIndex, Cards mit optionalem ⚠-Warning-Chip), Installiert (mod.json-Discovery unter Docs/Captain of Industry/Mods/), Downloads (Local .zip-Import). v0.3.1: gelber ⚠-Warning-Chip in Sources-Cards (Legal/Kompat/Adult). v0.3.0: kuratierte GitHub-Sources-Liste (6h-Cache) via Meta-Repo. v0.2.0: Installiert + Downloads dazu. v0.1.0: Workshop-only. DE+EN. MinHostVersion 1.18.0.",
+      "description": "Mod-Verwaltung für Captain of Industry (MaFi Games). v0.4.1: Backup-Snapshot vor jedem Install, Update-Check off-UI-Thread. v0.4.0: Update-Discovery im Installiert-Tab (GitHub-Releases über die kuratierte Sources-Liste, Badge + Release-Button, Sidebar-Badge). Drei Tabs: Workshop (Empty-State mit kuratierter GitHub-Sources-Liste aus KroModIx/KroModIx.CoiModIndex, Cards mit optionalem ⚠-Warning-Chip), Installiert (mod.json-Discovery unter Docs/Captain of Industry/Mods/), Downloads (Local .zip-Import). v0.3.1: gelber ⚠-Warning-Chip in Sources-Cards (Legal/Kompat/Adult). v0.3.0: kuratierte GitHub-Sources-Liste (6h-Cache) via Meta-Repo. v0.2.0: Installiert + Downloads dazu. v0.1.0: Workshop-only. DE+EN. MinHostVersion 1.18.0.",
       "steamAppIds": [
         1594320
       ],
